@@ -1,0 +1,19 @@
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: [
+    "./src/**/*.{js,jsx,ts,tsx}",
+  ],
+  theme: {
+    extend: {
+      colors: {
+        neutral: {
+          'almost-white': 'hsl(0, 0%, 98%)',
+          'medium-gray': 'hsl(0, 0%, 41%)',
+          'almost-black': 'hsl(0, 0%, 8%)',
+        }
+      }
+    },
+  },
+  plugins: [],
+}
+
